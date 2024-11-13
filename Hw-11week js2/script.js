@@ -5,5 +5,5 @@ for (let i = 1; i <= studentCount; i++) {
     grades.push(grade);
 }
 let sum = grades.reduce((total, grade) => total + grade, 0);
-let average = sum / studentCount;``
+let average = sum / studentCount;
 alert("Студенттердің бағаларының орташа мәні: " + average.toFixed(2));
